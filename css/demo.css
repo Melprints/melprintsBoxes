@@ -81,7 +81,7 @@ a{
 	box-sizing: content-box;
 }
 /* Header Style */
-.codrops-top{
+.boxNav-top{
 	line-height: 24px;
 	font-size: 11px;
 	background: #fff;
@@ -92,30 +92,30 @@ a{
 	font-family: Cambria, Georgia, serif;
 	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
 }
-.codrops-top a{
+.boxNav-top a{
 	padding: 0px 10px;
 	letter-spacing: 1px;
 	color: #333;
 	display: inline-block;
 }
-.codrops-top a:hover{
+.boxNav-top a:hover{
 	background: rgba(255,255,255,0.3);
 }
-.codrops-top span.right{
+.boxNav-top span.right{
 	float: right;
 }
-.codrops-top span.right a{
+.boxNav-top span.right a{
 	float: left;
 	display: block;
 }
 /* Demo Buttons Style */
-.codrops-demos{
+.boxNav {
     text-align:center;
 	display: block;
 	line-height: 30px;
 	padding: 5px 0px;
 }
-.codrops-demos a{
+.boxNav a{
     display: inline-block;
 	margin: 0px 4px;
 	padding: 0px 6px;
@@ -134,15 +134,15 @@ a{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
-.codrops-demos a:hover{
+.boxNav a:hover{
 	color: #333;
 	background: #fff;
 }
-.codrops-demos a:active{
+.boxNav a:active{
 	background: #fff;
 }
-.codrops-demos a.current-demo,
-.codrops-demos a.current-demo:hover{
+.boxNav a.current-demo,
+.boxNav a.current-demo:hover{
 	background: #f0f0f0;
 	border-color: #d9d9d9;
 	color: #aaa;

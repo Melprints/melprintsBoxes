@@ -18,7 +18,7 @@
         <div class="container">
 			<header>
 				<h1><span>Melprints</span>Box Options</h1>
-				<nav class="codrops-demos">
+				<nav class="boxNav">
 					<a href="index.html">Box 1</a>
 					<a class="current-demo" href="index2.html">Box 2</a>
 					<a href="index3.html">Box 3</a>
