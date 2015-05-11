@@ -39,32 +39,30 @@
             <div id="grid" class="main">
 				<div class="view">
 					<div class="view-back">
-						<span data-icon="A">e</span>
-						<span data-icon="B">e</span>
+						<span data-icon="A">info</span>
+						<span data-icon="B">email</span>
 						<a href="http://www.melprints.com/testing/boxInfo.php">&rarr;</a>
 					</div>
 					<img src="images/box1.jpg" />
 				</div>
 				<div class="view">
 					<div class="view-back">
-						<span data-icon="A">210</span>
-						<span data-icon="B">102</span>
 						<a href="http://www.melprints.com/testing/boxInfo.php">&rarr;</a>
 					</div>
 					<img src="images/box2.jpg" />
 				</div>
 				<div class="view">
 					<div class="view-back">
-						<span data-icon="A">690</span>
-						<span data-icon="B">361</span>
+						<span data-icon="A">info</span>
+						<span data-icon="B">email</span
 						<a href="http://www.melprints.com/testing/boxInfo.php">&rarr;</a>
 					</div>
 					<img src="images/box3.jpg" />
 				</div>
 				<div class="view">
 					<div class="view-back">
-						<span data-icon="A">987</span>
-						<span data-icon="B">130</span>
+						<span data-icon="A">info</span>
+						<span data-icon="B">email</span
 						<a href="http://www.melprints.com/testing/boxInfo.php">&rarr;</a>
 					</div>
 					<img src="images/box4.jpg" />
