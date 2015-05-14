@@ -14,20 +14,25 @@ BODY {
 .boxHeader {
 	text-align:center;
 	color:#343434;
-	font-size:2em;
+	font-size:2.5em;
 	border-bottom:1px solid #ccc; 
 	margin:30px;
 	padding-bottom:20px;
 }
-
+.boxTypeSection {
+	background-color:#999;	
+}
 .boxTypeImages {
     display:inline-block;
 	float:left;
 	box-sizing:border-box;
-	border:4px solid #999;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	border:10px solid #fff;
 	width:320px;
 	height:320px;
-	margin: 20px 0px 0px 20px;
+	margin: 30px;
 	background-color:#f5f5f5;
 }
 </style>
