@@ -5,65 +5,66 @@
 <meta charset="utf-8">
 <title>Boxes</title>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css' />
-
 <style type="text/css">
-body {
+BODY {
 	font-family: 'Open Sans','Arial Narrow', serif;
-	background: #ccc url(../images/bg.jpg) repeat top left;
-	color: #333;
-}
-.container{
-	width: 100%;
-	position: relative;
+	background-color: #ccc;
 }
 .clear {
 	clear:both;	
 }
-.photos {
-	float:left;
+.wrapper{
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	
+}
+.photoContainer {
 	position:relative;
-	border: 8px solid #fff;
-	box-shadow: 1px 1px 2px rgba(0,0,0,0.05);
-	perspective:500px;
+	width: 960px;
+	height:600px;
+	background-color:#f7f7f7;	
+}
+.photos {
+	width:320px;
+	height:220px;
+	margin:10px;
+	float: left;
+	border:8px solid #fff;
+	-webkit-perspective: 500px;
+	-moz-perspective: 500px;
+	-o-perspective: 500px;
+	-ms-perspective: 500px;
+	perspective: 500px;
+	
 }
 .photos img:hover {
-	transform: translate3d(10px,0,0) rotate3d(0,1,0,-1deg);
-	
-	
+	transform:scaleX(.5,1);
+	-webkit-translate:scale(.5,1);
+	-moz-translate:scale(.5,1);
+	-o-translate:scale(.5,1);	
+}
+.photosBack{
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	background: #666;
+	z-index: 0;
 }
 </style>
 </head>
-<body>
-	
-	<div class="container">
-    	<div class="header">
-        	<h1><span>Melprints</span> Box Options</h1>
-    	</div>
-        
-      <div class="photos">
-        		<div class="photosBack"></div>
-                <img src="images/box1.jpg" />
-                
-            </div><!-- end photos -->
-            
-         <div class="photos">
-                <div class="photosBack"></div>
-                <img src="images/box2.jpg" />
-            </div><!-- end photos -->
-            
-            <div class="photos">
-                <div class="photosBack"></div>
-                <img src="images/box3.jpg" />
-            </div><!-- end photos -->
-            
-            <div class="photos">
-                <div class="photosBack"></div>
-                <img src="images/box4.jpg" />
-            </div><!-- end photos -->
-            
-<div class="clear"></div>
-    	
-   </div><!-- end container -->
+<body>	
+	<div class="wrapper">
+    	<div class="photoContainer">
+		<div class="photos">
+        	<div class="photosBack"></div>
+        	<img src="images/box1.jpg" />
+      	</div><!-- end photos -->
+        </div>
+	</div>
+
 </body>
 </html>
 <?php include "../footer.php"; ?>
