@@ -66,9 +66,9 @@ BODY {
 }
 .viewport a img {
 	height: 252px;
-	 left: -20px;
+	 left: -10px;
     position: relative;
-	top: -20px;
+	top: -10px;
 	width: 275px;	
 }
 .viewport a span {
@@ -100,67 +100,62 @@ BODY {
 </style>
 <div class="boxHeader">Melprints Box Options</div>
     <div class="boxTypeSection">
-        <div class="boxTypeImages" style="align:left; text-align:center;"><img src="images/rollTuckBox.jpg" width="250" height="250"/>
+        <div class="boxTypeImages" style="align:left; text-align:center;">
             	<div class="viewport">
          			<a href="http://www.melprints.com">
             		<span class="dark-background">Description Text<em>Roll Tuck Box</em></span>
-               		 <img src="images/rollTuckBox.jpg">
+               		 <img src="images/rollTuckBox.jpg"/>
             		</a>
         	 </div>
        	</div>
             
-        <div class="boxTypeImages" style="align:left; text-align:center;"><img src="images/rollTuckBox2.jpg" width="250" height="250"/>
+        <div class="boxTypeImages" style="align:left; text-align:center;">
             <div class="viewport">
          		<a href="http://www.melprints.com">
             		<span class="dark-background">Description Text<em>Roll Tuck Box</em></span>
-                	<img src="images/rollTuckBox2.jpg">
+                	<img src="images/rollTuckBox2.jpg" width="250" height="250"/>
             	</a>
          	</div>
          </div>
             
-        <div class="boxTypeImages" style="align:left; text-align:center;"><img src="images/rollTuckBox3.jpg" width="250" height="250"/>
+        <div class="boxTypeImages" style="align:left; text-align:center;">
             <div class="viewport">
          		<a href="http://www.melprints.com">
             		<span class="dark-background">Description Text<em>Roll Tuck Box</em></span>
-                	<img src="images/rollTuckBox3.jpg">
+                	<img src="images/rollTuckBox3.jpg" width="250" height="250"/>
             	</a>
             </div>
         </div>
             
-        <div class="boxTypeImages" style="align:left; text-align:center;"><img src="images/pizzaBox.jpg" width="250" height="250"/>
+        <div class="boxTypeImages" style="align:left; text-align:center;">
         	<div class="viewport">
          		<a href="http://www.melprints.com">
             		<span class="dark-background">Description Text<em>Roll Tuck Box</em></span>
-                	<img src="images/pizzaBox.jpg">
+                	<img src="images/pizzaBox.jpg" width="250" height="250"/>
             	</a>
              </div>
         </div>
             
-        <div class="boxTypeImages" style="align:left; text-align:center;"><img src="images/rollTuckBoxFlap.jpg" width="250" height="250"/>
+        <div class="boxTypeImages" style="align:left; text-align:center;">
             <div class="viewport">
          		<a href="http://www.melprints.com">
             		<span class="dark-background">Description Text<em>Roll Tuck Box</em></span>
-                	<img src="images/rollTuckBoxFlap.jpg">
+                	<img src="images/rollTuckBoxFlap.jpg" width="250" height="250"/>
             	</a>
             </div>
          </div>
             
-        <div class="boxTypeImages" style="align:left; text-align:center;"><img src="images/rettLocksBox.jpg" width="250" height="250"/>
+        <div class="boxTypeImages" style="align:left; text-align:center;">
             <div class="viewport">
          		<a href="http://www.melprints.com">
             		<span class="dark-background">Description Text<em>Roll Tuck Box</em></span>
-                	<img src="images/rettLocksBox.jpg">
+                	<img src="images/rettLocksBox.jpg" width="250" height="250"/>
             	</a>
            </div>
         </div>
         <div class="clear"></div>
          
-        <div class="viewport">
-         	<a href="http://www.melprints.com">
-            	<span class="dark-background">Description Text<em>Roll Tuck Box</em></span>
-                <img src="images/rollTuckBox.jpg">
-            </a>
-         </div>
+        
         </div><!-- end boxTypeSection -->
         <div class="clear"></div>
 <?php include "../footer.php"; ?>
