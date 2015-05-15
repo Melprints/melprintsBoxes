@@ -2,10 +2,10 @@
 <script type="text/javascript">
 $(document).ready(function() {
     $('.viewport').mouseenter(function(e) {
-        $(this).children('.viewport').children('img').animate({ height: '259', left: '0', top: '0', width: '250'}, 100);
+        $(this).children('.viewport').children('img').animate({ height: '250', left: '0', top: '0', width: '250'}, 100);
         $(this).children('a').children('span').fadeIn(200);
     }).mouseleave(function(e) {
-        $(this).children('a').children('img').animate({ height: '259', left: '-20', top: '-20', width: '250'}, 100);
+        $(this).children('a').children('img').animate({ height: '250', left: '-20', top: '-20', width: '250'}, 100);
         $(this).children('a').children('span').fadeOut(200);
     });
 });
@@ -66,10 +66,10 @@ BODY {
 }
 .viewport a img {
 	height: 252px;
-	 left: -10px;
+	/*left: -10px;*/
     position: relative;
-	top: -10px;
-	width: 275px;	
+	/*top: -10px;*/
+	width: 250px;	
 }
 .viewport a span {
     display: none;
