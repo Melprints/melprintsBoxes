@@ -1,15 +1,20 @@
 <?php include "../header.php"; ?>
 <script type="text/javascript">
+$(function(){
+		hideHeaderImage();
+	});
+	
 $(document).ready(function() {
     $('.viewport').mouseenter(function(e) {
         $(this).children('.viewport').children('img').animate({ height: '250', left: '0', top: '0', width: '250'}, 100);
         $(this).children('a').children('span').fadeIn(200);
     }).mouseleave(function(e) {
-        $(this).children('a').children('img').animate({ height: '250', left: '-20', top: '-20', width: '250'}, 100);
+        $(this).children('a').children('img').animate({ height: '250', left: '0', top: '0', width: '250'}, 100);
         $(this).children('a').children('span').fadeOut(200);
     });
 });
 </script>
+
 <style type="text/css">
 BODY {
 	margin:0;
@@ -31,6 +36,9 @@ BODY {
 	border-bottom:1px solid #ccc; 
 	margin:30px;
 	padding-bottom:20px;
+}
+.headerImages {
+	display:inline-block;
 }
 .boxTypeImages {
     display:inline-block;
@@ -98,13 +106,26 @@ BODY {
     color: #ccc;
 }
 </style>
-<div class="boxHeader">Melprints Box Options</div>
+
+	<div class="boxHeader">Melprints Box Type Options</div>
+	<div class="headerImages">
+    	<img src="images/rollenmaterial-1.png" style="float:left;">
+        <img src="images/melprintsBox.png" style="float:right; margin-left:60px; margin-top:60px;">
+        <div class="clear"></div>
+    </div>
+    
+    <!--<div class="boxList">
+    	<UL>
+        	<LI>Roll Edge Tuck</LI>
+            <LI>Pizza Style</LI>
+        </UL>
+    </div>-->
     <div class="boxTypeSection">
         <div class="boxTypeImages" style="align:left; text-align:center;">
             	<div class="viewport">
          			<a href="http://www.melprints.com">
-            		<span class="dark-background">Description Text<em>Roll Tuck Box</em></span>
-               		 <img src="images/rollTuckBox.jpg"/>
+            		<span class="dark-background">Roll Edge Tuck<em>Get Info</em></span>
+               		 <img src="images/rollTuckBox.png">
             		</a>
         	 </div>
        	</div>
@@ -113,7 +134,7 @@ BODY {
             <div class="viewport">
          		<a href="http://www.melprints.com">
             		<span class="dark-background">Description Text<em>Roll Tuck Box</em></span>
-                	<img src="images/rollTuckBox2.jpg" width="250" height="250"/>
+                	<img src="images/rollTuckBox2.png">
             	</a>
          	</div>
          </div>
@@ -122,7 +143,7 @@ BODY {
             <div class="viewport">
          		<a href="http://www.melprints.com">
             		<span class="dark-background">Description Text<em>Roll Tuck Box</em></span>
-                	<img src="images/rollTuckBox3.jpg" width="250" height="250"/>
+                	<img src="images/rollTuckBox3.png">
             	</a>
             </div>
         </div>
@@ -131,7 +152,7 @@ BODY {
         	<div class="viewport">
          		<a href="http://www.melprints.com">
             		<span class="dark-background">Description Text<em>Roll Tuck Box</em></span>
-                	<img src="images/pizzaBox.jpg" width="250" height="250"/>
+                	<img src="images/pizzaBox.png">
             	</a>
              </div>
         </div>
@@ -140,7 +161,7 @@ BODY {
             <div class="viewport">
          		<a href="http://www.melprints.com">
             		<span class="dark-background">Description Text<em>Roll Tuck Box</em></span>
-                	<img src="images/rollTuckBoxFlap.jpg" width="250" height="250"/>
+                	<img src="images/tuckTopFlap.png">
             	</a>
             </div>
          </div>
@@ -149,7 +170,7 @@ BODY {
             <div class="viewport">
          		<a href="http://www.melprints.com">
             		<span class="dark-background">Description Text<em>Roll Tuck Box</em></span>
-                	<img src="images/rettLocksBox.jpg" width="250" height="250"/>
+                	<img src="images/rettLocks.png">
             	</a>
            </div>
         </div>
