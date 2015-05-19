@@ -73,7 +73,7 @@ BODY {
     position: relative;
 }
 .viewport a img {
-	height: 252px;
+	height: 250px;
 	/*left: -10px;*/
     position: relative;
 	/*top: -10px;*/
@@ -81,10 +81,10 @@ BODY {
 }
 .viewport a span {
     display: none;
-    font-size: 3.0em;
+    font-size: 2em;
     font-weight: bold;
     height: 100%;
-    padding-top: 120px;
+    padding-top: 90px;
     position: absolute;
     text-align: center;
     text-decoration: none;
@@ -93,7 +93,7 @@ BODY {
 }
 .viewport a span em {
     display: block;
-    font-size: 0.45em;
+    font-size: 0.65em;
     font-weight: normal;
 }
 
@@ -124,34 +124,16 @@ BODY {
         <div class="boxTypeImages" style="align:left; text-align:center;">
             	<div class="viewport">
          			<a href="http://www.melprints.com">
-            		<span class="dark-background">Roll Edge Tuck<em>Get Info</em></span>
+            		<span class="dark-background">Roll End Tuck Top<em>Learn More</em></span>
                		 <img src="images/rollTuckBox.png">
             		</a>
         	 </div>
        	</div>
-            
-        <div class="boxTypeImages" style="align:left; text-align:center;">
-            <div class="viewport">
-         		<a href="http://www.melprints.com">
-            		<span class="dark-background">Description Text<em>Roll Tuck Box</em></span>
-                	<img src="images/rollTuckBox2.png">
-            	</a>
-         	</div>
-         </div>
-            
-        <div class="boxTypeImages" style="align:left; text-align:center;">
-            <div class="viewport">
-         		<a href="http://www.melprints.com">
-            		<span class="dark-background">Description Text<em>Roll Tuck Box</em></span>
-                	<img src="images/rollTuckBox3.png">
-            	</a>
-            </div>
-        </div>
-            
+        
         <div class="boxTypeImages" style="align:left; text-align:center;">
         	<div class="viewport">
          		<a href="http://www.melprints.com">
-            		<span class="dark-background">Description Text<em>Roll Tuck Box</em></span>
+            		<span class="dark-background">Pizza Style<em>Learn More</em></span>
                 	<img src="images/pizzaBox.png">
             	</a>
              </div>
@@ -160,7 +142,27 @@ BODY {
         <div class="boxTypeImages" style="align:left; text-align:center;">
             <div class="viewport">
          		<a href="http://www.melprints.com">
-            		<span class="dark-background">Description Text<em>Roll Tuck Box</em></span>
+            		<span class="dark-background">Folder Boxes<em>Learn More</em></span>
+                	<img src="images/rollTuckBox2.png">
+            	</a>
+         	</div>
+         </div>
+            
+        <div class="boxTypeImages" style="align:left; text-align:center;">
+            <div class="viewport">
+         		<a href="http://www.melprints.com">
+            		<span class="dark-background">Mailer Boxes<em>Learn More</em></span>
+                	<img src="images/rollTuckBox3.png">
+            	</a>
+            </div>
+        </div>
+            
+        
+            
+        <div class="boxTypeImages" style="align:left; text-align:center;">
+            <div class="viewport">
+         		<a href="http://www.melprints.com">
+            		<span class="dark-background">Regular Slotted<em>Learn More</em></span>
                 	<img src="images/tuckTopFlap.png">
             	</a>
             </div>
@@ -169,7 +171,7 @@ BODY {
         <div class="boxTypeImages" style="align:left; text-align:center;">
             <div class="viewport">
          		<a href="http://www.melprints.com">
-            		<span class="dark-background">Description Text<em>Roll Tuck Box</em></span>
+            		<span class="dark-background">Auto Bottom Locks<em>Learn More</em></span>
                 	<img src="images/rettLocks.png">
             	</a>
            </div>
